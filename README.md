@@ -60,3 +60,27 @@ Reglas especiales
 - Espacios, tabs y saltos de línea se ignoran.
 - Existe una regla catch-all que captura cualquier símbolo no reconocido e imprime un mensaje de advertencia en stderr en lugar de abortar.
 Con esto queda cubierta la parte de Persona 2: validación de archivo, generación de scanner, extracción e impresión de tokens.
+
+/////////////////////////////////
+Ejecutar el analizador
+
+Ejecuta el programa pasando como parámetros el archivo de entrada (.go) y el nombre del archivo de salida (.txt):
+
+java -cp build Analizador.Main src/recursos/Prueba1.go salida.txt
+
+4. Revisar el reporte
+
+El análisis se guarda en el archivo salida.txt.
+Ahí encontrarás:
+
+Tokens reconocidos
+
+Conteo de palabras reservadas
+
+Errores léxicos
+
+🛠 Requisitos
+
+Java 11+ instalado
+
+JFlex 1.9.1 (jflex-full-1.9.1.jar en la carpeta lib/)

@@ -1,0 +1,32 @@
+===== TOKENS RECONOCIDOS =====
+PACKAGE -> package
+IDENTIFIER -> main
+IMPORT -> import
+QUOTE -> "
+IDENTIFIER -> fmt
+QUOTE -> "
+FUNC -> func
+IDENTIFIER -> main
+LPAREN -> (
+RPAREN -> )
+LBRACE -> {
+IDENTIFIER -> x
+ASSIGN -> =
+INT_LITERAL -> 10
+PLUS -> +
+INT_LITERAL -> 20
+IDENTIFIER -> fmt
+IDENTIFIER -> Println
+LPAREN -> (
+IDENTIFIER -> x
+RPAREN -> )
+RBRACE -> }
+
+===== CONTEO DE PALABRAS RESERVADAS =====
+package -> 1
+import -> 1
+func -> 1
+
+===== ERRORES LÉXICOS =====
+⚠ Error léxico: caracter no reconocido ':'
+⚠ Error léxico: caracter no reconocido '.'
